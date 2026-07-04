@@ -1,0 +1,6 @@
+{
+  "name": "Acoustic Signal Translator",
+  "description": "An interactive frequency-to-semantics translator that decodes both alien signals and earthly mammal emotions/vocalizations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

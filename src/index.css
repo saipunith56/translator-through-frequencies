@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Cinzel:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-serif: "Cinzel", Georgia, ui-serif, serif;
+}
+
+/* Custom glow effects for Sophisticated Dark theme */
+.xeno-glow {
+  box-shadow: 0 0 15px rgba(0, 245, 255, 0.15);
+}
+
+.xeno-glow-active {
+  box-shadow: 0 0 25px rgba(0, 245, 255, 0.35);
+}
+
+.xeno-text-glow {
+  text-shadow: 0 0 8px rgba(0, 245, 255, 0.4);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #07090d;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 245, 255, 0.3);
+}
